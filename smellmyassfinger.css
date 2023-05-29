@@ -9,9 +9,6 @@ body{
     color: red !important;
 }
 .mole{
-    scale: 200;
+    scale: 1;
 }
 
-video{
-    scale: 10%;
-}
