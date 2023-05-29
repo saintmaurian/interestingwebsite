@@ -34,7 +34,7 @@ head {
       
       .bg {
         /* The image used */
-        background-image: url("/assets/xp\ lol.jpg");
+        background-image: url("assets/xp\ lol.jpg");
       
         /* Full height */
         height: 100%;
