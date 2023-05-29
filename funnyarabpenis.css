@@ -1,0 +1,15 @@
+body {
+color: black;
+
+}
+
+@font-face {
+    font-family: ibmvga;
+    src: url(./assets/Bm437_TelePC.FON);
+  }
+
+  p {
+    font-family: 'ibmvga';
+    font-size: 24;
+    color: rgb(0, 255, 0);
+  }
