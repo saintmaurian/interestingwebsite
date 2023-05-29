@@ -1,11 +1,13 @@
-.grapeisnatural {
-
-    background-image: url(assets/a\ native\ chief\ met\ a\ libtard.jpg);
-    
-}
 
 p {
 font-family: 'Perfect DOS VGA 437', sans-serif;
 font-size: 50;
+color: brown;
+
+}
+
+body {
+
+    background-image: url(assets/a\ native\ chief\ met\ a\ libtard.jpg)
 
 }
