@@ -4,7 +4,10 @@ body{
     background-color: black;
 }
 .smellmyassfinger{
-    font-family: space grotesque;
+    font-family: 'Perfect DOS VGA 437', sans-serif;
     font-size: larger;
      color: red !important;
+}
+.mole{
+    scale: 10%;
 }
