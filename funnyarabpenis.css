@@ -10,7 +10,7 @@ background-color: black;
 
 @font-face {
     font-family: 'ibmvga';
-    src: url(./assets/Bm437_TelePC.FON);
+    src: url(assets/Bm437_TelePC.FON);
   }
 
   p {
