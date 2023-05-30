@@ -1,7 +1,7 @@
 
 
 body{
-    background: url(http://farm3.static.flickr.com/2464/3697567010_6ec9371123_o.gif);
+    background-color: black;
 }
 .smellmyassfinger{
     font-family: 'Perfect DOS VGA 437', sans-serif;
@@ -13,7 +13,7 @@ body{
     scale: 10%;
 }
 .skitzo{
-    color:green;
+    color:rgb(0, 255, 0);
     font-family: 'Perfect DOS VGA 437', sans-serif;
     
     
