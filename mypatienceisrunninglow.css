@@ -70,3 +70,9 @@ left: 20%;
 bottom: 10%;
 
  }
+ 
+ .box5 {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
+ }
