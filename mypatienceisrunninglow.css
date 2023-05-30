@@ -16,7 +16,7 @@ body {
 
 .window {
 position: absolute;
-left: 20%;
+left: 70%;
 top: 40%;
 user-select: none;
 cursor: move;
@@ -24,22 +24,41 @@ cursor: move;
 }
 
   
-  .window.porn {
-    position: absolute;
-    left: 60%;
+ .window .porn {
+    position: static;
+    left: 20%;
     top: 50%;
     user-select: none;
     cursor: move;
     
     
-    }
-  
-    .werapedogs {
-      position: absolute;
-      left: 60%;
-      top: 50%;
-      user-select: none;
-      cursor: move;
-      
+ }
 
-    }
+ .secondbox {
+  position: absolute;
+  left: 20%;
+  top: 40%;
+  user-select: none;
+  cursor: move;
+  margin: left 34px;;
+
+ }
+
+ .thirdbox {
+
+  position: absolute;
+  left: 50%;
+  top: 10%;
+  user-select: none;
+
+
+
+ }
+
+ .gif {
+
+  height: fit-content;
+  width: fit-content;
+  
+
+ }
