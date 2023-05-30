@@ -16,10 +16,14 @@ background-color: black;
 
   .topnav {
     font-family: "Comic Sans MS", "Comic Sans", cursive;
-    background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
-    color: transparent;
-    background-clip: text;
-    -webkit-background-clip: text;
-    }
+    background: url('http://farm3.static.flickr.com/2464/3697567010_6ec9371123_o.gif');
+    color: #000;
+    text-decoration: none;
+}
+
+.topnav > a {
+  color: #000;
+  font-size: 1.3rem;
+}
 
   
