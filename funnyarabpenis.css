@@ -20,7 +20,7 @@ background-color: black;
     color: #000;
     text-decoration: none;
     box-shadow: 2px 2px wheat;
-    text-shadow: 5px 10px wheat !important;
+    text-shadow:2px 2px wheat !important;
 }
 
 .topnav > a {
