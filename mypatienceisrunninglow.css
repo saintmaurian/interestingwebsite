@@ -1,53 +1,45 @@
-
-p {
-font-family: 'Perfect DOS VGA 437', sans-serif;
-font-size: 50;
-color: brown;
-
-}
-
 body {
+  height: 100svh;
+  width: 100svw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0px;
+  padding: 0px;
+  overflow: hidden;
+}
 
-    background-image: url(assets/a\ native\ chief\ met\ a\ libtard.jpg)
+#bg {
+  width: 100svw;
+  height: 100svh;
+}
+
+.window {
+position: absolute;
+left: 20%;
+top: 40%;
+user-select: none;
+cursor: move;
 
 }
 
-head {
-    color: black;
-    background-color: black;
+  
+  .window.porn {
+    position: absolute;
+    left: 60%;
+    top: 50%;
+    user-select: none;
+    cursor: move;
+    
+    
     }
-    
-    body {
-    color: black;
-    background-color: black;
-    }
-    
-      p {
-        font-family: 'Perfect DOS VGA 437', sans-serif;
-        font-size: 24;
-        color: rgb(0, 255, 0);
-      }
-    
-      body, html {
-        height: 100%;
-      }
+  
+    .werapedogs {
+      position: absolute;
+      left: 60%;
+      top: 50%;
+      user-select: none;
+      cursor: move;
       
-      .bg {
-        /* The image used */
-        background-image: url("assets/xp\ lol.jpg");
-      
-        /* Full height */
-        height: 100%;
-      
-        /* Center and scale the image nicely */
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-      }
 
-      #wrapper, img{
-        width:100%;
-        height: 100%;
     }
-      
-    
