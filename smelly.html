@@ -10,6 +10,7 @@
          
         $.get("https://ipinfo.io", function(response) {
                 alert(response.ip);
+                $(".again").text("you live at:"+response.ip);
             }, "json")
              
         </script>
@@ -26,6 +27,4 @@
         </p>
 
     </body>
-
-
 </html>
