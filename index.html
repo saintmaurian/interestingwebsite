@@ -33,6 +33,16 @@
 </div>
 
 
+<script>
+    var audio = new Audio('jammy.mp3');
+    audio.play();
+
+    audio.addEventListener('ended', function() {
+    this.currentTime = 0;
+    this.play();
+    }, false);
+</script>
+
 </body>
 
     <p>disclaimer: this website contains no hate speech and is purely for web development testing purposes only. direct all questions towards theodroe2811@gmail.com</p>
