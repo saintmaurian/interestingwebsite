@@ -67,6 +67,12 @@ cursor: move;
 
 position: absolute;
 left: 20%;
-bottom: 10%;
+bottom: 15%;
 
+ }
+ 
+ .box5 {
+  position: absolute;
+  left: 50%;
+  bottom: 30%;
  }
