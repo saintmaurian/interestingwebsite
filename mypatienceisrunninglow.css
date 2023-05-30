@@ -76,3 +76,24 @@ bottom: 15%;
   left: 50%;
   bottom: 30%;
  }
+
+ .dripstein {
+
+  position: absolute;
+  left: 17%;
+  top: 15%;
+
+
+ }
+
+ .inside {
+  background-color: black;
+ }
+
+ span.webwithin {
+
+  color: yellow;
+  text-align: center;
+  font-size: 10pt;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+ }
