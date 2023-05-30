@@ -19,6 +19,8 @@ background-color: black;
     background: url('http://farm3.static.flickr.com/2464/3697567010_6ec9371123_o.gif');
     color: #000;
     text-decoration: none;
+    box-shadow: 2px 2px wheat;
+    text-shadow: 5px 20rem wheat !important;
 }
 
 .topnav > a {
@@ -26,4 +28,26 @@ background-color: black;
   font-size: 1.3rem;
 }
 
+  .holder {
+    color: rgb(0, 132, 255);
+      padding:0.5rem;
+      overflow: hidden;
+      font-family: 'Satisfy';
+      top: 95%;
+      position: fixed;
+    }
+    .news {
+      animation : slide 10s linear infinite;
+      
+    }
+    
+    @keyframes slide {
+      0% {
+        transform: translatex(0%)
+      }
+    
+      100% {
+        transform: translatex(100%)
+      }
+    }
   
