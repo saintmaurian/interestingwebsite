@@ -1,0 +1,22 @@
+body {
+    background: aqua;
+}
+
+.topnav {
+    background: url('https://cdn.openart.ai/stable_diffusion/ce7bcaec011cc125458ea49803ec5489ffcdb9f3_2000x2000.webp');
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 2rem;
+    border-radius: 100%;
+    width: 84%;
+    padding-top: 8rem;
+    overflow: hidden;
+    box-shadow: 0px 0px 60px rgb(187, 58, 58), 0px 0px;
+}
+
+p {
+    font-size: 4rem;
+    border: dotted 20px brown;
+    margin-left: 6rem;
+}
