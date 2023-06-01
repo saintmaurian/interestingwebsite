@@ -106,3 +106,16 @@ bottom: 15%;
   display: none;
   text-align: center;
 }
+
+.draggable {
+  /* Indicate the element draggable */
+  cursor: move;
+
+  /* It will be positioned absolutely */
+  position: absolute;
+
+  /* Doesn't allow to select the content inside */
+  user-select: none;
+
+  z-index: 10000;
+}
