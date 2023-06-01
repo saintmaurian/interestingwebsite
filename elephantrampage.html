@@ -3,52 +3,7 @@
     <link rel="stylesheet" href="mypatienceisrunninglow.css">
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
 
-<script>
-dragElement(document.getElementById("secondbox"));
 
-function dragElement(elmnt) {
-  var pos1 = 0, pos2 = 0, pos3 = 0, pos4 = 0;
-  if (document.getElementById(elmnt.id + "window")) {
-    // if present, the header is where you move the DIV from:
-    document.getElementById(elmnt.id + "window").onmousedown = dragMouseDown;
-  } else {
-    // otherwise, move the DIV from anywhere inside the DIV:
-    elmnt.onmousedown = dragMouseDown;
-  }
-
-  function dragMouseDown(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // get the mouse cursor position at startup:
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    document.onmouseup = closeDragElement;
-    // call a function whenever the cursor moves:
-    document.onmousemove = elementDrag;
-  }
-
-  function elementDrag(e) {
-    e = e || window.event;
-    e.preventDefault();
-    // calculate the new cursor position:
-    pos1 = pos3 - e.clientX;
-    pos2 = pos4 - e.clientY;
-    pos3 = e.clientX;
-    pos4 = e.clientY;
-    // set the element's new position:
-    elmnt.style.top = (elmnt.offsetTop - pos2) + "px";
-    elmnt.style.left = (elmnt.offsetLeft - pos1) + "px";
-  }
-
-  function closeDragElement() {
-    // stop moving when mouse button is released:
-    document.onmouseup = null;
-    document.onmousemove = null;
-  }
-}
-
-
-</script>
     <body>
         <img id="bg" src="assets/xpbackground.PNG" alt="">
         
@@ -69,6 +24,7 @@ function dragElement(elmnt) {
               <option>on</option>
               <option>my</option>
               <option>beef</option>
+              <option>all of the above</option>
             </select>
           </div>
         </div>
@@ -260,7 +216,8 @@ function dragElement(elmnt) {
           <article role="tabpanel" id="music">
               
               <div class="inside">
-<p> <span class="webwithin"> WELCUM 2 MY website <br><br> T4KE 4 L00K AR0UND </span></p>
+              <p> <span class="webwithin"> WELCUM 2 MY website <br><br> T4KE 4 L00K AR0UND </span></p>
+              <p><span class= "webwithin"><a href="pornhub.com/gay">click for game</a></span></p>
               </div>
               
                 </div>

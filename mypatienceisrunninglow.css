@@ -20,8 +20,10 @@ left: 70%;
 top: 40%;
 user-select: none;
 cursor: move;
-
+z-index: 9;
+  
 }
+
 
   
  .window .porn {
@@ -33,6 +35,8 @@ cursor: move;
     
     
  }
+
+
 
  .secondbox {
   position: absolute;
