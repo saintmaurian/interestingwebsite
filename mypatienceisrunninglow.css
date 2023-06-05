@@ -119,3 +119,11 @@ bottom: 15%;
 
   z-index: 10000;
 }
+
+.cp {
+
+  position: absolute;
+  right: 20%;
+  bottom: 15%;
+
+}

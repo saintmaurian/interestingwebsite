@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
-    <link rel="stylesheet" href="mypatienceisrunninglow.css">
+
     <link rel="stylesheet" href="https://unpkg.com/xp.css">
+    <link rel="stylesheet" href="mypatienceisrunninglow.css">
+   
 
     <script>
     // The current position of mouse
@@ -43,7 +45,22 @@
           document.removeEventListener('mouseup', mouseUpHandler);
       };
       
-      ele.addEventListener('mousedown', mouseDownHandler);</script>
+      ele.addEventListener('mousedown', mouseDownHandler)
+      
+      </script>
+
+      <script>
+         function toggleTheme(value) {
+  
+  // Obtain the name of stylesheet 
+  // as a parameter and set it 
+  // using href attribute.
+  var sheets = document
+      .getElementsByTagName('link');
+
+  sheets[0].href = value;
+}
+    </script>
 
 
     <body>
@@ -304,6 +321,28 @@
           </section>
         </div>
       </div>
+      
+
+
+      <div class="cp">
+      <div class="window" style="width: 300px">
+        <div class="title-bar">
+          <div class="title-bar-text">Choose your OS</div>
+          <div class="title-bar-controls">
+            <button aria-label="Minimize"></button>
+            <button aria-label="Maximize"></button>
+            <button aria-label="Close"></button>
+          </div>
+        </div>
+        <div class="window-body">
+          <button onclick="toggleTheme('https://unpkg.com/xp.css')">Windows XP</button>
+          <button onclick="toggleTheme('https://unpkg.com/98.css')">Windows 98</button>
+          <button onclick="toggleTheme('https://unpkg.com/7.css')">Windows 7</button>
+          
+        </div>
+      </div>
+    </div>
 
       </body>
       </html>
+
